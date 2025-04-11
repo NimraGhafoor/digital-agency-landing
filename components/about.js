@@ -11,13 +11,13 @@ export default function About() {
                 </p>
                 <div className="row">
                     < div className="col-md-4">
-                        <img src="public\image1.png" alt="Image 1" className="img-fluid" />
+                        <img src="image1.png" alt="Image" className="img-fluid" />
                     </div>
                     <div className="col-md-4">
-                        <img src="public\image2.png" alt="Image 2" className="img-fluid" />
+                        <img src="image1.png" alt="Image" className="img-fluid" />
                     </div>
                     <div className="col-md-4">
-                        <img src="public\image3.png" alt="Image 3" className="img-fluid" />
+                        <img src="image1.png" alt="Image" className="img-fluid" />
                     </div>
                 </div>
             </div>

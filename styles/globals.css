@@ -20,9 +20,9 @@ body {
 }
 
 .footer {
-  background-color: #FAF0FF; /* Adjusted background color */
+  background-color: #FAFCFF; 
   color: #333;
-  padding: 80px 0; /* Provide consistent padding */
+  padding: 80px 0; 
 }
 
 .footer-content {
@@ -33,23 +33,27 @@ body {
 
 .footer-section {
   flex: 1;
-  text-align: left; /* Left-align text */
+  text-align: left; 
 }
 
 .footer-title {
-  color: #0075FF; /* Primary color for header */
+  color: #0075FF; 
   margin-bottom: 20px;
 }
 
 .footer-links {
   flex: 2;
   display: flex;
+  justify-content: space-between;
   justify-content: space-around;
+}
+.footer-links :hover {
+  color: #0d6efd !important;
 }
 
 .footer-contact {
   flex: 1;
-  text-align: right; /* Right-align contact section */
+  text-align: right; 
 }
 
 .footer-contact .btn {
@@ -58,11 +62,11 @@ body {
 
 .social-icons {
   display: flex;
-  justify-content: flex-end; /* Align social icons to the right */
-  gap: 10px; /* Adjust spacing between icons */
+  justify-content: flex-end; 
+  gap: 10px; 
 }
 
 .social-icons a {
-  color: #333; /* Icon color */
-  font-size: 20px; /* Consistent icon size */
+  color: #333; 
+  font-size: 20px; 
 }
