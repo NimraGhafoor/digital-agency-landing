@@ -27,7 +27,7 @@ const services = [
 
 export default function Product() {
   return (
-    <section style={{ padding: '80px 0', backgroundColor: '#fff' }}>
+    <section style= {{ padding: '80px 0', backgroundColor: '#fff' }}>
       <Container>
         <Row className="mb-5">
           <Col md={6}>

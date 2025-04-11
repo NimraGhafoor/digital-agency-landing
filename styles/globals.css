@@ -8,3 +8,61 @@ body {
 .nav-link:hover {
   color: #0d6efd !important; /* Bootstrap primary */
 }
+.circle-icon {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-color: #f8f9fa;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 15px;
+}
+
+.footer {
+  background-color: #FAF0FF; /* Adjusted background color */
+  color: #333;
+  padding: 80px 0; /* Provide consistent padding */
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px; 
+}
+
+.footer-section {
+  flex: 1;
+  text-align: left; /* Left-align text */
+}
+
+.footer-title {
+  color: #0075FF; /* Primary color for header */
+  margin-bottom: 20px;
+}
+
+.footer-links {
+  flex: 2;
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer-contact {
+  flex: 1;
+  text-align: right; /* Right-align contact section */
+}
+
+.footer-contact .btn {
+  margin-bottom: 20px;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: flex-end; /* Align social icons to the right */
+  gap: 10px; /* Adjust spacing between icons */
+}
+
+.social-icons a {
+  color: #333; /* Icon color */
+  font-size: 20px; /* Consistent icon size */
+}

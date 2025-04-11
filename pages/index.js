@@ -4,10 +4,9 @@ import Hero from '../components/hero';
 import Product from '../components/product';
 import Footer from '../components/footer'
 import Services from '../components/service';
-import About from '../components/about';
 import Clients from '../components/client';
 import CTA from '../components/cta';
-
+import About from '../components/about';
 export default function Home() {
   return (
     <>

@@ -1,45 +1,47 @@
 // components/Footer.js
 import React from 'react';
+import '../styles/globals.css';
+
 export default function Footer() {
   return (
-    <footer className="bg-light text-dark py-5">
+    <footer className="footer">
       <div className="container">
-        <div className="d-flex justify-content-between mb-4">
-          <div>
-            <h5>Rukous</h5>
-            <p>Digital creative market for all user.</p>
-            <p>Elegant style for your business</p>
+        <div className="footer-content">
+          <div className="footer-section">
+            <h4 className="footer-title">Rukous</h4>
+            <p>Digital creative market for all users. Elegant style for your business.</p>
+            <p>Copyright 2023. Rukous</p>
           </div>
-          <div>
-            <h5>Quick Links</h5>
+          <div className="footer-links">
             <ul className="list-unstyled">
-              <li><a href="#">Product</a></li>
-              <li><a href="#">Carrier</a></li>
-              <li><a href="#">Services</a></li>
-              <li><a href="#">Business</a></li>
-              <li><a href="#">Privacy Policy</a></li>
-              <li><a href="#">Terms & Conditions</a></li>
-              <li><a href="#">About</a></li>
-              <li><a href="#">Contact</a></li>
+              <li>Product</li>
+              <li>Services</li>
+              <li>About</li>
+              <li>Contact</li>
+            </ul>
+            <ul className="list-unstyled">
+              <li>Carrier</li>
+              <li>Business</li>
+              <li>Company</li>
+              <li>Team</li>
+            </ul>
+            <ul className="list-unstyled">
+              <li>Privacy Policy</li>
+              <li>Terms & Conditions</li>
             </ul>
           </div>
-          <div>
-            <h5>Contact Us</h5>
-            <p>Any Question?</p>
-            <button className="btn btn-primary">Contact Us</button>
+          <div className="footer-contact">
+            <h6 className="fw-bold">Any Question</h6>
+            <a href="#" className="btn btn-primary">Contact Us</a>
+            <div className="social-icons">
+              <a href="#"><i className="bi bi-facebook"></i></a>
+              <a href="#"><i className="bi bi-twitter"></i></a>
+              <a href="#"><i className="bi bi-linkedin"></i></a>
+            </div>
           </div>
         </div>
-        <div className="text-center">
-          <small>Copyright © 2023 Rukous</small>
-        </div>
-        <div className="text-center mt-3">
-          <a href="#" className="mx-2">Facebook</a>
-          <a href="#" className="mx-2">Twitter</a>
-          <a href="#" className="mx-2">Instagram</a>
-          <a href="#" className="mx-2">LinkedIn</a>
-        </div>
       </div>
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet"></link>
     </footer>
   );
-};
-  
+}

@@ -10,7 +10,7 @@ export default function Clients() {
         <a href="#" className="btn btn-primary">See More Article →</a>
       </div>
       <div className="row">
-        {articles.map ((article, index) => 
+        {articles.map((article, index) => 
           (
           <div className="col-md-4 mb-4" key={index}>
             <div className="card">
@@ -22,7 +22,7 @@ export default function Clients() {
               </div>
             </div>
           </div>
-        ))}
+        )) }
       </div>
     </div>
   );
@@ -33,17 +33,17 @@ const articles = [
   {
     title: 'Digital Demand Generation Strategy for Modern Marketers',
     description: 'Focused on recycled clothing, some brides are finding their wedding attire on vintage sites and at resale stores.',
-    image: 'https://via.placeholder.com/150',  // Replace with actual image URL
+    image: 'public\image1.png', 
   },
   {
     title: 'Inbound Marketing Funnel: A Step-by-Step Guide',
     description: 'Explaining the steps necessary to create and maintain an effective inbound marketing funnel.',
-    image: 'https://via.placeholder.com/150',  // Replace with actual image URL
+    image: 'public\image2.png',  
   },
   {
     title: 'Branded Content Marketing: Benefits and Strategies',
     description: 'Discussing the advantages of branded content and strategies to implement it successfully.',
-    image: 'https://via.placeholder.com/150',  // Replace with actual image URL
+    image: 'public\image3.png',  
   },
 ];
 
