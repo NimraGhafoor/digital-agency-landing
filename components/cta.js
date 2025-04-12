@@ -1,6 +1,5 @@
 // components/CTA.js
 import React from 'react';
-import '../styles/globals.css';
 export default function CTA() {
   return (
     <div className="container text-center py-5">
