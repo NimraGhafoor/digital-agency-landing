@@ -31,7 +31,7 @@ export default function Footer() {
             </ul>
           </div>
           <div className="col-md-4 footer-contact">
-            <h6 className="fw-bold">Any Question</h6>
+            <h6 className="fw-bold">Any Question?</h6>
             <a href="#" className="btn btn-primary">Contact Us</a>
             <div className="social-icons">
               <a href="#"><i className="bi bi-facebook"></i></a>
